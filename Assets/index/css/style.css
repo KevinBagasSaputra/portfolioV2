@@ -1,0 +1,269 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: Open Sans;
+    scroll-behavior: smooth;
+}
+/* Latar START */
+.latar-nav-hero{
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1674958026986-8bdd866ac98c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+    .latar-nav-hero .latar-container-nav-hero{
+        background-color: rgba(128, 128, 128, 0.199);
+    }
+/* Latar END */
+
+
+
+/* Navbar START */
+    nav{
+        width: 100%;
+        /* background-color: rgba(128, 128, 128, 0.575); */
+        background-color: #0D1117;
+        border-bottom: 1px solid gray;
+
+        margin-bottom: 50px;
+
+        top: 0;
+        position: sticky;
+    }
+
+    nav .container{
+        padding: 10px;
+    }
+
+    nav .container ul{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    nav .container ul li{
+        list-style-type: none;
+    }
+
+    nav .container ul li a{
+        color: white;
+        text-decoration: none;
+
+        padding: 10px;
+        transition: all ease-in 750ms;
+    }nav .container ul li a:hover{
+        color: gray;
+        text-shadow: 2px 2px 2px black; 
+        transition: all ease-in-out 100ms;
+    }nav .container ul li a:active{
+        color: white;
+    }
+
+
+    /* Judul Navbar START */
+        nav .container ul li .judul{
+            width: 100%;
+        }
+    /* Judul Navbar END */
+
+
+    /* Marquee START */
+    nav .container ul li marquee{
+        color: black;
+        background-color: white;
+    }
+    /* Marquee END */
+/* Navbar END */
+
+
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+.hero .container{
+    margin: 20px;
+}
+.hero .container ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    /* padding: 10px; */
+}
+    /* Img START */
+        .hero .container ul img{
+            min-width: 50%;
+            max-width: 100%;
+
+            min-height: 200px;
+            max-height: 600px;
+
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 0 5px 5px #0D1117;
+            border: 1px solid gray;
+        }.hero .container ul img:hover{
+        }
+    /* Img END */
+/* Hero END */
+
+
+
+
+/* About START */
+.about{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.about .container{
+    padding: 10px;
+}
+
+.about .container ul h2{
+    color: white;
+}
+
+.about .container .wrap-about{
+    display: flex;
+    justify-content: center;
+}
+
+.about .container .wrap-about ul{
+    min-width: 100px;
+    max-width: 800px;
+}
+
+.about .container .wrap-about ul li{
+    list-style-type: none;
+}
+
+.about .container .wrap-about ul li p{
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+}
+/* About END */
+
+
+
+
+
+/* Gallery START */
+.gallery{
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gallery .container{
+    padding: 10px;
+    /* background-color: #0D1117; */
+    
+    /* background-color: rgba(128, 128, 128, 0.11); */
+}
+
+.gallery .container .wrap-gallery{
+    min-width: 50%;
+    max-width: 100%;
+}
+
+.gallery .container  h2{
+    color: white;
+    text-align: center;
+}.gallery .container .paragraf{
+    color: white;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.gallery .container .wrap-gallery ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}.gallery .container .wrap-gallery ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+
+.gallery .container .wrap-gallery ul li a{
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    background-color: gray;
+
+    transition: all ease-in 852ms;
+}.gallery .container .wrap-gallery ul li a:hover{
+    background-color: black;
+    transition: all ease-in-out 150ms;
+}
+
+.gallery .container .wrap-gallery ul li a img{
+    min-width: 100px;
+    max-width: 300px;
+    
+}
+
+.gallery .container ul li a .gallery-text{
+    color: black;
+    background-color: white;
+    text-align: center;
+
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+}.gallery .container ul li a .gallery-text p{
+    color: black;
+}
+/* Gallery END */
+
+
+
+
+
+
+/* Wa START */
+.wa{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    filter: grayscale(100%);
+}.wa:hover{
+    filter: grayscale(0);
+}
+
+.wa .container{
+    padding: 10px;
+}
+
+.wa .container ul{
+    display: flex;
+    justify-content: end;
+
+}
+
+.wa .container ul a{
+    padding: 10px;
+}
+
+.wa .container ul a img{
+    min-width: 50px;
+    max-width: 50px;
+}
+/* Wa END */
+
+
+
+
